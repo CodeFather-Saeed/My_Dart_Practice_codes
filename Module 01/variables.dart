@@ -5,10 +5,10 @@ void main ()
 
   var firstNumber  = 50;
   print("Your First Number is = $firstNumber");
-  print("\n");
 
   var secondNumber = 30;
   print("Your Second Number is = $secondNumber");
+  print("\n");
 
   var  sum = firstNumber + secondNumber;
   var  sub = firstNumber - secondNumber;
