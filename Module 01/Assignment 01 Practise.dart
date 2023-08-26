@@ -1,14 +1,20 @@
-void main ()
+void main()
 {
-   var studentmap = {
-     'StudentID':1903203,
-           'Age':24,
-        'Address':'Narayanganj',
-         'Class':15,
-        'Gender':'Male',
-   };
+  const int a = 7;        //Initialize constant integer value of a is 7
+  const int b = 3;        //Initialize constant integer value of b is 3
 
-   var studentAddress = studentmap['Address'];
-   print("Address $studentAddress");
+  int addition = a + b;
+  int subtraction = a - b;
+  int multiplication = a * b;
+  double division = a / b;
+  int modulus = a % b;
+
+  print("a = $a , b = $b");
+
+  print("Addition: $a + $b = $addition");
+  print("Subtraction: $a - $b = $subtraction");
+  print("Multiplication: $a * $b = $multiplication");
+  print("Division: $a / $b = $division");
+  print("Modulus: $a % $b = $modulus");
 
 }
