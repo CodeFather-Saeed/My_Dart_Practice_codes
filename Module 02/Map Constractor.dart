@@ -1,5 +1,4 @@
-void main ()
-{
+void main () {
   var Student = new Map ();
 
   Student ['Name'] = 'Saeed';
@@ -8,12 +7,14 @@ void main ()
 
   print(Student);
 
-  Student ['Country'] ='Bangladesh';
+  Student ['Country'] = 'Bangladesh';
   print(Student);
 
-  print(Student.keys);    // To shows all keys of the Map
-  print(Student.values);   // To shows all values of the Map
-  print(Student.length);   // To shows the length of the Map
-  print(Student.isEmpty);    // To shows Is the Map empty ?
-  print(Student.isNotEmpty);  //// To shows Isn't the Map empty ?
+  print(Student.keys); // To shows all keys of the Map
+  print(Student.values); // To shows all values of the Map
+  print(Student.length); // To shows the length of the Map
+  print(Student.isEmpty); // To shows Is the Map empty ?
+  print(Student.isNotEmpty); //// To shows Isn't the Map empty ?
+
+
 }
