@@ -1,22 +1,17 @@
-   sumtwovalue(int a, int b){
-    var c = a + b;                 //Two values Summation function
-    return c;
+   sumtwovalue(var a, var b){
+     return a + b;              //Two values Summation function
    }
-   subtwovalue(int a, int b){
-     var c = a - b;             //Two values Subtraction function
-     return c;
+   subtwovalue(var a, var b){
+     return a - b;             //Two values Subtraction function
    }
-   multwovalue(int a, int b){
-     var c = a * b;            //Two values multiplication  function
-     return c;
+   multwovalue(var a, var b){
+     return a * b;            //Two values multiplication  function
    }
-   divtwovalue(int a, int b){
-     var c = a / b;           ////Two values division function
-     return c;
+   divtwovalue(var a, var b){
+     return a / b;           ////Two values division function
    }
-   modtwovalue(int a, int b){
-     var c = a % b;            ////Two values modulus function
-     return c;
+   modtwovalue(var a, var b){
+     return a % b;            ////Two values modulus function
    }
 /*  A function have Four parts
    1. Function Name. Each function have to be unique name
@@ -36,8 +31,8 @@ void main ()
   result = subtwovalue(50, 20);
   print("Subtraction is = $result");
 
-  result = modtwovalue(50, 20);
-  print("Modulus is = $result");
+  result = multwovalue(50, 20);
+  print("Multiplication is = $result");
 
   result = divtwovalue(50, 20);
   print("Division is = $result");
