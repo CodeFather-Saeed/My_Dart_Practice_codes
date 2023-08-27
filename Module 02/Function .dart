@@ -1,9 +1,21 @@
-   addtwovalue(int a, int b){
-    var c = a +b;
+   sumtwovalue(int a, int b){
+    var c = a + b;                 //Two values Summation function
     return c;
    }
    subtwovalue(int a, int b){
-     var c = a - b;
+     var c = a - b;             //Two values Subtraction function
+     return c;
+   }
+   multwovalue(int a, int b){
+     var c = a * b;            //Two values multiplication  function
+     return c;
+   }
+   divtwovalue(int a, int b){
+     var c = a / b;           ////Two values division function
+     return c;
+   }
+   modtwovalue(int a, int b){
+     var c = a % b;            ////Two values modulus function
      return c;
    }
 /*  A function have Four parts
@@ -18,9 +30,19 @@ void main ()
   var result;
 
   // ---------------function  call ---------------------
-  result = addtwovalue(50, 20);
-  print("Result is = $result");
+  result = sumtwovalue(50, 20);
+  print("Summation is = $result");
 
   result = subtwovalue(50, 20);
-  print("Result is = $result");
+  print("Subtraction is = $result");
+
+  result = modtwovalue(50, 20);
+  print("Modulus is = $result");
+
+  result = divtwovalue(50, 20);
+  print("Division is = $result");
+
+  result = modtwovalue(50, 20);
+  print("Modulus is = $result");
+
 }
