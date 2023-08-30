@@ -3,10 +3,10 @@ void main()
   var mycityName =<String>{"Kazi" , "Saeed","Hossain"}; // Initialized a set
   print(mycityName);
 
-  mycityName.add("Naeem");      // Added only one value in set
+  mycityName.add("Naeem");      // Added only one value by .add in set
   print(mycityName);
 
-  mycityName.addAll({"Sadman","Sakib","Jisan"}); // Added multiple values in set
+  mycityName.addAll({"Sadman","Sakib","Jisan"}); // Added multiple values in set by .addAll
   print(mycityName);
 
   var x = mycityName.elementAt(4);
